@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#fff1f5">
+    <meta name="description" content="A little love letter, made just for you.">
+    <title>A little question for you 💗</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true">
+      <span class="ambient-heart heart-one">♡</span>
+      <span class="ambient-heart heart-two">♥</span>
+      <span class="ambient-heart heart-three">♡</span>
+      <span class="ambient-heart heart-four">♥</span>
+      <span class="ambient-star star-one">✦</span>
+      <span class="ambient-star star-two">✧</span>
+      <span class="ambient-star star-three">✦</span>
+      <span class="ambient-star star-four">✧</span>
+      <span class="ambient-star star-five">✦</span>
+    </div>
+
+    <main>
+      <section class="question-screen screen is-active" id="question-screen" aria-labelledby="question-title">
+        <div class="question-card glass-card">
+          <div class="eyebrow"><span></span> a tiny love note <span></span></div>
+          <div class="teddy-scene" aria-hidden="true">
+            <span class="teddy-sparkle sparkle-a">✦</span>
+            <span class="teddy-sparkle sparkle-b">✧</span>
+            <svg class="teddy" viewBox="0 0 180 168" role="img" aria-label="">
+              <ellipse cx="90" cy="153" rx="54" ry="9" fill="#d994a6" opacity=".18"/>
+              <circle cx="56" cy="37" r="20" fill="#b87967"/>
+              <circle cx="56" cy="37" r="10" fill="#e7b7a7"/>
+              <circle cx="124" cy="37" r="20" fill="#b87967"/>
+              <circle cx="124" cy="37" r="10" fill="#e7b7a7"/>
+              <ellipse cx="90" cy="92" rx="54" ry="51" fill="#c98a75"/>
+              <ellipse cx="90" cy="136" rx="31" ry="20" fill="#e9c1ae"/>
+              <ellipse cx="90" cy="74" rx="42" ry="37" fill="#d6a08c"/>
+              <ellipse cx="90" cy="86" rx="19" ry="14" fill="#f4d6c8"/>
+              <circle cx="75" cy="72" r="3.3" fill="#573a3c"/>
+              <circle cx="105" cy="72" r="3.3" fill="#573a3c"/>
+              <ellipse cx="90" cy="82" rx="4" ry="3" fill="#704447"/>
+              <path d="M85 88q5 6 10 0" fill="none" stroke="#704447" stroke-width="2" stroke-linecap="round"/>
+              <ellipse cx="69" cy="81" rx="6" ry="3.5" fill="#ed9eaa" opacity=".78"/>
+              <ellipse cx="111" cy="81" rx="6" ry="3.5" fill="#ed9eaa" opacity=".78"/>
+              <path d="M58 99q-19 9-11 23 8 11 29-8M122 99q19 9 11 23-8 11-29-8" fill="#d6a08c" stroke="#bd806d" stroke-width="3" stroke-linecap="round"/>
+              <path d="M90 105c-10-10-22 4 0 18 22-14 10-28 0-18z" fill="#f16b88"/>
+            </svg>
+            <span class="tiny-heart" aria-hidden="true">♥</span>
+          </div>
+          <h1 id="question-title">I have a little question<br>for you, <span data-nickname>Janu</span>... <span class="heading-heart">💗</span></h1>
+          <p class="question-copy">Do you love me? <span aria-hidden="true">🥺👉👈</span></p>
+          <div class="button-arena" id="button-arena">
+            <button class="button button-yes" id="yes-button" type="button">I love u, <span data-nickname>Janu</span> <span aria-hidden="true">❤️</span></button>
+            <button class="button button-no" id="no-button" type="button" aria-describedby="no-hint">No <span aria-hidden="true">🙈</span></button>
+          </div>
+          <p class="playful-hint" id="no-hint" aria-live="polite">Psst... one of these buttons is a little shy.</p>
+          <div class="card-footer"><span>made with all my heart</span><span aria-hidden="true">♡</span></div>
+        </div>
+      </section>
+
+      <section class="celebration-screen screen" id="celebration-screen" aria-live="polite" aria-labelledby="celebration-title" hidden>
+        <div class="celebration-art" aria-hidden="true">
+          <div class="celebration-heart">♥</div>
+          <span class="hug-person person-left">🐻</span>
+          <span class="hug-person person-right">🐰</span>
+          <span class="celebration-spark cs-one">✦</span>
+          <span class="celebration-spark cs-two">✧</span>
+          <span class="celebration-spark cs-three">✦</span>
+        </div>
+        <p class="eyebrow celebration-eyebrow">the best answer ever</p>
+        <h1 id="celebration-title">YAYYYYY! I LOVE YOU SO MUCH,<br><span data-nickname>JANU</span>! <span aria-hidden="true">❤️🥹</span></h1>
+        <p class="celebration-subtitle">I knew my heart picked the right person.</p>
+      </section>
+
+      <section class="love-screen screen" id="love-screen" aria-labelledby="love-title" hidden>
+        <div class="love-sky" aria-hidden="true">
+          <div class="moon-glow"></div>
+          <span class="sky-star ss-one">✦</span><span class="sky-star ss-two">✧</span>
+          <span class="sky-star ss-three">✦</span><span class="sky-star ss-four">✧</span>
+          <span class="sky-star ss-five">✦</span><span class="sky-star ss-six">✧</span>
+          <span class="sky-cloud cloud-left">☁</span><span class="sky-cloud cloud-right">☁</span>
+          <span class="sky-butterfly butterfly-left">🦋</span><span class="sky-butterfly butterfly-right">🦋</span>
+        </div>
+        <div class="garden" aria-hidden="true">
+          <div class="garden-tree"><span class="tree-crown"></span><span class="tree-trunk"></span></div>
+          <span class="garden-flower flower-a">✿</span><span class="garden-flower flower-b">✿</span>
+          <span class="garden-flower flower-c">✿</span><span class="garden-flower flower-d">✿</span>
+          <span class="garden-flower flower-e">✿</span><span class="garden-flower flower-f">✿</span>
+          <div class="sitting-couple"><span>🐻</span><span class="couple-heart">♥</span><span>🐰</span></div>
+        </div>
+
+        <header class="love-header">
+          <p class="eyebrow">a little piece of my heart</p>
+          <h1 id="love-title">For my favorite person, <span data-nickname>Janu</span> <span aria-hidden="true">♡</span></h1>
+          <p class="header-note">A few things I hope you never forget...</p>
+        </header>
+
+        <div class="love-content">
+          <div class="message-list" id="message-list" aria-live="polite">
+            <p class="love-message">You're my favorite person in this whole world. <span aria-hidden="true">❤️</span></p>
+            <p class="love-message">If I could choose again, I'd still choose you. Every single time. <span aria-hidden="true">🥹💗</span></p>
+            <p class="love-message">You make my ordinary days feel special, <span data-nickname>Janu</span>. <span aria-hidden="true">🌷</span></p>
+            <p class="love-message">Even when we're far apart, you always have a special place in my heart. <span aria-hidden="true">💌</span></p>
+            <p class="love-message">And if I had to say it a thousand times, I'd still say it...</p>
+          </div>
+          <p class="final-message" id="final-message" hidden>I LOVE YOU, <span data-nickname>JANU</span>.<br>FOREVER AND ALWAYS. <span aria-hidden="true">❤️🫶🏻</span></p>
+
+          <div class="heart-counter" aria-live="polite">
+            <span class="counter-heart" aria-hidden="true">♥</span>
+            <span><strong id="heart-count">0</strong> little hearts collected</span>
+            <span class="counter-hint">tap a floating heart!</span>
+          </div>
+
+          <div class="love-actions" aria-label="Little ways to send some love">
+            <button class="button button-soft" id="hug-button" type="button"><span aria-hidden="true">🤗</span> Send me a hug</button>
+            <button class="button button-soft" id="kiss-button" type="button"><span aria-hidden="true">😘</span> One more kiss</button>
+            <button class="button button-soft" id="letter-button" type="button"><span aria-hidden="true">💝</span> Open my heart</button>
+            <section class="song-player" aria-label="Our love song">
+              <p class="song-title"><span aria-hidden="true">♫</span> Hona Tha Pyar · Atif Aslam</p>
+              <audio class="song-audio" id="love-song" controls preload="none" aria-label="Hona Tha Pyar by Atif Aslam">
+                <source src="Atif_Aslam_-_Hona_Tha_Pyaar_Bol_-_(mp3.pm).mp3" type="audio/mpeg">
+                Your browser does not support audio playback.
+                <a href="Atif_Aslam_-_Hona_Tha_Pyaar_Bol_-_(mp3.pm).mp3">Download the MP3</a>.
+              </audio>
+              <p class="music-note" id="music-note" aria-live="polite">Tap play to listen.</p>
+            </section>
+          </div>
+        </div>
+        <div class="floating-heart-layer" id="floating-heart-layer" aria-label="Tap a floating heart to collect it"></div>
+        <p class="love-signoff">always yours <span aria-hidden="true">♡</span></p>
+      </section>
+    </main>
+
+    <div class="letter-backdrop" id="letter-backdrop" hidden>
+      <section class="letter-card" role="dialog" aria-modal="true" aria-labelledby="letter-title">
+        <button class="letter-close" id="letter-close" type="button" aria-label="Close letter">×</button>
+        <div class="envelope-mark" aria-hidden="true">💌</div>
+        <p class="eyebrow">sealed with a kiss</p>
+        <h2 id="letter-title">A little letter for you</h2>
+        <div class="letter-copy" id="letter-copy"></div>
+        <p class="letter-signoff">with all my love <span aria-hidden="true">♡</span></p>
+      </section>
+    </div>
+    <div class="effect-layer" id="effect-layer" aria-hidden="true"></div>
+    <div class="screen-reader-only" id="announcement" aria-live="polite"></div>
+  </body>
+</html>
